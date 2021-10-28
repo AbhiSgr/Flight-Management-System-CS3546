@@ -1,5 +1,7 @@
 import java.io.IOException;
 import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -59,8 +61,6 @@ public class Example extends HttpServlet {
         String lname = request.getParameter("lname");
         String email = request.getParameter("email");
         String password = request.getParameter("password");
-        String loginemail = request.getParameter("loginemail");
-        String loginpass = request.getParameter("loginpass");
         
         Boolean login = false;
         
@@ -126,6 +126,8 @@ public class Example extends HttpServlet {
     			System.out.println(e);
     		}
             System.out.println("Successfully Registered!");
+            RequestDispatcher rd = request.getRequestDispatcher("/Login.html");
+            rd.forward(request, response);
          
 	}
 
