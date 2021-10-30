@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Flight Management System - Login</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-<style type="text/css">
 
-	input{
-		border-radius: 5px;
-		border-width:0px;
-	}
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Flight Management System - Login</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+		<style type="text/css">
+			input {
+				border-radius: 5px;
+				border-width: 0px;
+			}
 
-	body{
-		background: url(img/bg.jpg) no-repeat fixed center / cover; 
-    	height: 100%;
-    	min-height: 700px;
-	}
-</style>
-</head>
-<body>
-	
-	<br>
+			body {
+				background: url(img/bg.jpg) no-repeat fixed center / cover;
+				height: 100%;
+				min-height: 700px;
+			}
+		</style>
+	</head>
 
-<div style="background-color: rgba(0, 0, 0, 0.7); margin-left: 30%; margin-right: 30%; margin-top: 60px; padding-bottom: 50px; border-radius: 20px 20px 20px 20px; color: white; margin-top: 120px;">
+	<body>
 
-	<div style="text-align: center;">
-		<img src="img/FMS.png" style="height: 120px; width: 300px; padding-top: 30px;">	
-	</div>
-	
-	<h3 style="text-align: center; padding-bottom: 10px; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px;font-size: 20px;">User Login</h3>
+		<br>
 
-<form name="loginform" method="get" action="/Flight-Management-System/Login" style="text-align: center; font-family: 'DM Sans', sans-serif; letter-spacing: 1.13px;">
-	<table align="center">
-		<tr>
-			<td align="right" height="30px">Email :</td> 
-			<td><input type="email" name="email"/></td> 
-		</tr>
-		<tr>
-			<td align="right" height="30px">Password :</td> 
-			<td><input type="password" name="password"/></td> 
-		</tr>
-		<tr align="center" height="50px">
-			<td></td>
-			<td align="left">
-				<input type="submit" value="Login" style="font-family: 'DM Sans', sans-serif; background-color: #ef9761; color: black; padding: 8px; border-radius: 8px; border-bottom: 3px solid white; letter-spacing: 1.1px;" />
-			</td>
-		</tr>
-	</table>
-</form>
-</div>
+		<div
+			style="background-color: rgba(0, 0, 0, 0.7); margin-left: 30%; margin-right: 30%; margin-top: 60px; padding-bottom: 50px; border-radius: 20px 20px 20px 20px; color: white; margin-top: 120px;">
 
-<footer style="text-align: center; font-family: 'DM Sans', sans-serif; bottom: 0; position: fixed; left: 0; width: 100%; padding-bottom: 20px; color: white; background-color: black; padding-top: 20px;">
-	Designed and Developed by Unnati Chaudhary | Abhishek Sagar
-</footer>
-</body>
+			<div style="text-align: center;">
+				<img src="img/FMS.png" style="height: 120px; width: 300px; padding-top: 30px;">
+			</div>
+
+			<h3
+				style="text-align: center; padding-bottom: 10px; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px;font-size: 20px;">
+				User Login</h3>
+
+			<form name="loginform" method="get" action="/Flight-Management-System/Login"
+				style="text-align: center; font-family: 'DM Sans', sans-serif; letter-spacing: 1.13px;">
+				<table align="center">
+					<tr>
+						<td align="right" height="30px">Email :</td>
+						<td><input type="email" name="email" /></td>
+					</tr>
+					<tr>
+						<td align="right" height="30px">Password :</td>
+						<td><input type="password" name="password" /></td>
+					</tr>
+					<tr align="center" height="50px">
+						<td></td>
+						<td align="left">
+							<input type="submit" value="Login"
+								style="font-family: 'DM Sans', sans-serif; background-color: #ef9761; color: black; padding: 8px; border-radius: 8px; border-bottom: 3px solid white; letter-spacing: 1.1px;" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+		<footer
+			style="text-align: center; font-family: 'DM Sans', sans-serif; bottom: 0; position: fixed; left: 0; width: 100%; padding-bottom: 20px; color: white; background-color: black; padding-top: 20px;">
+			Designed and Developed by Unnati Chaudhary | Abhishek Sagar
+		</footer>
+	</body>
+
 </html>
